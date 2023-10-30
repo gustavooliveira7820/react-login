@@ -1,0 +1,30 @@
+# Abra o PowerShell
+powershell
+
+# Mude para a pasta especificada
+cd C:\Windows\System32\react-login\frontend\app
+
+# Verifique o local atual
+Get-Location
+
+# Salve o local atual
+Push-Location
+
+# Mude para outra pasta
+cd C:\Windows\System32\react-login\backend
+
+# Verifique o local atual
+Get-Location
+
+# Volte para a pasta anterior
+Pop-Location
+
+# Verifique o local atual
+Get-Location
+
+
+# para rodar o servidor é clicar em #cd app e #npm start
+24:04 frontend
+
+# para rodar o servidor local em #npm run dev
+backend
