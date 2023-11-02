@@ -53,8 +53,8 @@ nav {
     cursor: pointer;
     max-width: 60px;
     width: 100%;
-    -webkit-animation: rotate-scale-up 0.65s linear both;
-    animation: rotate-scale-up 0.65s linear both;
+    /*-webkit-animation: rotate-scale-up 0.65s linear both;
+    animation: rotate-scale-up 0.65s linear both;*/
   }
   
   @-webkit-keyframes rotate-scale-up {
