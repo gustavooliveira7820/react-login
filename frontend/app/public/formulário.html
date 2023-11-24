@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="meubodyDark">
+    <nav id="navDark" class="">
+      <div class="logo">
+        <a href="index.html"><img src="seta-delineada-de-logout-e-quadrado.png" alt="logo-img" /></a>
+      </div>
+      <div class="deixar-embaixo">
+        <ul class="sumirclick" id="hamburguer">
+          <li><a class="aNavDark" id="voltarpag" href="formulário.html">formulário</a></li>
+          <li><a class="aNavDark" id="voltarpag2" href="Agendamento.html">Agendamento Automatizado</a></li>
+        </ul>
+    </nav>
+      <form class="card-login">
+        <h1>formulário</h1>
+        <input type="none"  name="CNPJ" minlength="12" maxlength="20" placeholder="00.000.000/0000-00"> 
+        <input type="email" name="EMAIL" placeholder="digite email para contato">
+        <input type="text"  name="ENDEREÇO" maxlength="40" placeholder="digite seu endereço">
+        <input list="resíduos" id="resíduosmodel"  name="RESÍDUO" maxlength="2"  placeholder="escolhe o modelo do resíduo">
+        <datalist id="resíduos">
+          <option value="A1">
+          <option value="A2">
+          <option value="A3">
+        </datalist>
+        <label for="peso">Peso</label>
+	      0<input type="range" id="peso" name="peso" min="0" max="200">200
+	      <br>
+        <input type="number" name="QUANTIDADE" placeholder="quantidade ">
+        <input type="text" name="OBSERVAÇÕES" placeholder="digite as observações">
+      </form>
+    
+  </div>
+</div>  
+</body>
+</html>
