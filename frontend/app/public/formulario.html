@@ -2,43 +2,56 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="bec.jpg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Coleta BEC</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
-<body class="meubodyDark">
+<body>
+  <main>
+    <section class="meubodyDark">
     <nav id="navDark" class="">
       <div class="logo">
         <a href="index.html"><img src="seta-delineada-de-logout-e-quadrado.png" alt="logo-img" /></a>
       </div>
       <div class="deixar-embaixo">
         <ul class="sumirclick" id="hamburguer">
-          <li><a class="aNavDark" id="voltarpag" href="formulario.html">formulário</a></li>
-          <li><a class="aNavDark" id="voltarpag2" href="Agendamento.html">Agendamento Automatizado</a></li>
+          <li><a class="aNavDark" id="voltarpag" href="formulario.html">Coleta BEC</a></li>
+          <li><a class="aNavDark" id="voltarpag2" href="Agendamento.html">Agendamento BEC</a></li>
         </ul>
     </nav>
+    </section>
+    <section class="formulario">
       <form class="card-login">
-        <h1>formulário</h1>
-        <input type="none"  name="CNPJ" minlength="12" maxlength="20" placeholder="00.000.000/0000-00"> 
-        <input type="email" name="EMAIL" placeholder="digite email para contato">
-        <input type="text"  name="ENDEREÇO" maxlength="40" placeholder="digite seu endereço">
+        <h1>Coleta BEC</h1>
+        <div id="mensagemErro" style="color: red;"></div>
+        <label for="cnpj_cpf">CNPJ/CPF*</label>        
+        <input type="numero"  name="cnpj_cpf" minlength="12" maxlength="20" placeholder="00.000.000/0000-00"> 
+        <label for="email">E-mail*</label>
+        <input type="email" name="email" placeholder="digite email para contato">
+        <label for="endereco">Endereço*</label>
+        <input type="text"  name="endereco" maxlength="40" placeholder="digite seu endereço">
+        <label for="residuos">Modelo de Resíduos*</label>
         <input list="resíduos" id="resíduosmodel"  name="RESÍDUO" maxlength="2"  placeholder="escolhe o modelo do resíduo">
         <datalist id="resíduos">
           <option value="A1">
           <option value="A2">
           <option value="A3">
         </datalist>
-
+        <label for="peso">Peso*</label>
 	      <input type="text" id="peso" name="peso" min="0" maxlenght="200" placeholder="digite o peso">
-	      
-        <input type="number" name="QUANTIDADE" placeholder="quantidade ">
-        <input type="text" name="OBSERVAÇÕES" placeholder="digite as observações">
-        <input type="submit" value="" >
+	      <label for="peso">quantidade*</label>
+        <input type="number" name="quantidade" placeholder="quantidade ">
+        <label for="observacoes">Observações</label>
+        <input type="text" name="observacoes" placeholder="digite as observações">
+        <button type="button" class="button">Enviar</button>
+        
       </form>
 
   </div>
-</div>  
+</div>
+</section>
+</main>  
 </body>
 </html>
