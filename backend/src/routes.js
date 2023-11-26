@@ -5,7 +5,12 @@ const users = [{
     id: 1,
     name: 'Gustavo',
     "email": "gustavomatosdeoliveira550@gmail.com",
-	"password" : "123456"
+	"password" : "123456",
+/* 
+    id: 2,
+    name: 'Jeferson',
+    "email": "jsrgodoy@gmail.com",
+    "password" : "654321" */
 }];
 
 routes.post('/login', (req, res) => {
