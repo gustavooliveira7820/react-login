@@ -18,7 +18,8 @@ a:active {
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-a:focus, a:hover,
+a:focus,
+a:hover,
 a:link:focus,
 a:link:hover,
 a:visited:focus,
@@ -37,7 +38,7 @@ a:active:hover {
   margin: 30px auto;
   text-align: center;
   padding: 20px 0 0 0;
-  border-radius: 4px;
+  border-radius: 15px;
   box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -65,8 +66,8 @@ input[type="email"] {
   font-style: normal;
   font-size: 16px;
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   position: relative;
   display: inline-block;
   background: none;
@@ -103,12 +104,11 @@ input[type="email"]:focus {
 }
 
 .Logout {
-  
   position: fixed;
-  top: 10px; 
-  right: 10px; 
-  background-color: rgb(255, 255, 255); 
-  color: #fff; 
+  top: 10px;
+  right: 10px;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
   padding: 10px 20px;
-  border-radius: 5px; 
+  border-radius: 5px;
 }

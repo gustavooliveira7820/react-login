@@ -4,6 +4,9 @@ powershell
 # Mude para a pasta especificada
 cd C:\Windows\System32\react-login\frontend\app
 
+# baixar pacote axios
+cd C:\Windows\System32\react-login\frontend\app npm i axios
+
 # Verifique o local atual
 Get-Location
 
