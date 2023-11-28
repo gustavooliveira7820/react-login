@@ -27,9 +27,10 @@ html{
   
   
   
+  
   body {
     display: flex;
-    margin-top: 50px;
+    margin-top: 0px;
     justify-content: center;
     background-color: var(--body-color);
   }
@@ -42,36 +43,53 @@ html{
     padding: 5px;
     border-radius: 5px;
     color: white;
+    margin-top: 50px;
   }
   
   #header {
+    margin-top: 100px;
     padding: 10px;
     color: var(--header-color) ;
     font-size: 26px;
     font-family: sans-serif;
     display: flex;
     justify-content: space-between;
+    align-items: end;
+   
   }
   #header button {
     background-color:var(--header-button);
   }
   #container {
-    width: 770px;
+    width: 700px;
+    
   }
   #weekdays {
     width: 100%;
     display: flex;
     color: var(--color-weekdays) ;
+  
   }
   #weekdays div {
     width: 100px;
-    padding: 10px;
+    padding-left: 15px;
+    margin: none;
+    
+   }
+
+  #weekdays a{
+    width: 100px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    margin-top: 0px;
   }
   #calendar {
     width: 100%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
   }
   .day {
     width: 100px;
@@ -153,4 +171,16 @@ html{
     position: absolute;
     background-color: rgba(0,0,0,0.8);
   }
+ 
+  #buttonsmode{
+
+    margin-top: 20px;
+    padding-top: 50px;
+  }
+   
+  #monthDisplay{
+    color: black;
+  }
   
+
+ 
